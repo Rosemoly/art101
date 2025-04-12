@@ -1,6 +1,63 @@
 /* this css file will only style the homepage of our site */
+body {
+  background-color: #fff0f5;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #5e3366;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  background-color: #ffeef8;
+  border-radius: 20px;
+  box-shadow: 0 0 15px #ffb6c1;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.8em;
+  color: #d63384;
+  margin: 20px 0 10px;
+}
+
+.subtitle {
+  font-size: 1.2em;
+  color: #cc6699;
+  margin-bottom: 30px;
+}
+
+.minor-section {
+  background-color: #fff5fa;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 8px #ffc0cb;
+  margin-bottom: 30px;
+}
 
 .cat-photo {
-  margin: 10px;
-  max-width: 500px;
+  width: 250px;
+  border-radius: 12px;
+  box-shadow: 0 0 12px #ffbfd9;
+  margin-bottom: 15px;
+}
+
+h2 {
+  color: #b3005e;
+  font-size: 1.8em;
+}
+
+p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  margin: 10px 0;
+}
+
+footer {
+  font-size: 1em;
+  color: #a64d79;
+  padding-top: 10px;
+  border-top: 1px solid #ffccdd;
 }

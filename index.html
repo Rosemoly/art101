@@ -1,16 +1,27 @@
 <!DOCTYPE html>
-<html>
+<html <!DOCTYPE html>
+	<html lang="en">
 <head>
+  <meta charset="UTF-8">
+  <title>Emily's Homepage</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/homepage.css">
+</head>
+<body>
 	<!-- This title is used for tabs and bookmarks -->
-	<title>MyName's Homepage</title>
-
+		<div class="container">
+			<header>
+			  <h1>🌸 Emily's Homepage 🌸</h1>
+			  <p class="subtitle">A cozy little corner for creative coding ✨</p>
+			</header>
 	<!-- Use UTF character set, a good idea with any webpage -->
 	<meta charset="UTF-8" />
 	<!-- Set viewport so page remains consistently scaled w narrow devices -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+	
 	<!-- Include a sitewide CSS file for consistent styling across the site -->
-	<link rel="stylesheet" type="text/css" href="css/site.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
 	<!-- Lab-specifc CSS file for any special styling of this particular page -->
 	<link rel="stylesheet" type="text/css" href="css/homepage.css">
 	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
@@ -20,18 +31,23 @@
 <body>
 	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
 	<main id="content">
-		<section>
-			<h1>MyName's Homepage</h1>
-			<div class="minor-section">
-					<!-- Note that all filenames use lowercase and no spaces -->
-					<img class="cat-photo" src="./img/cute-grey-kitten.jpg">
-					<h2>About Me</h2>
-					<p>Tell us about yourself. Add photos. Customize this. Go crazy.</p>
-			</div>
+	</section>	  
+	<h1>🌸 Emily's Homepage 🌸</h1>
+	<div class="minor-section">
+	  <img class="cat-photo" src="./img/cute-grey-kitten.jpg" alt="A cute kitten">
+	  <h2>About Me</h2>
+	  <p>I have a cat. Her name is Kitty. 🐾</p>
+	  <footer>
+		<p>💗 Thanks for visiting! 💗</p>
+	  </footer>
+	</div>
 
 		</section>
-		<nav id="links">
-			<!-- Put links to labs here. -->
+		<ul>
+			<li><a href="lab1/index.html">Lab 1</a></li>
+			<li><a href="lab2/index.html">Lab 2</a></li>
+			<!-- Add more labs as needed -->
+		  </ul>
 		</nav>
 	</main>
 </body>
