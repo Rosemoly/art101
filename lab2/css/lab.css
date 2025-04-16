@@ -7,3 +7,35 @@
     border: solid 1px #888;
     background-color: #DDD8C4;
   }
+/* Style for the entire page */
+body {
+  color: #d36da3; /* soft pink text */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+  background-color: #fffafc; /* optional: very light pink background */
+}
+
+/* Style for the heading */
+h1 {
+  color: #ff7eb9; /* brighter pink */
+  font-size: 36px;
+  text-align: center;
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Style for the paragraph */
+p {
+  text-indent: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #d36da3; /* match body text color */
+  font-family: 'Comic Sans MS', cursive, sans-serif;
+}
+
+/* Style for the content box */
+#content {
+  border: 2px dashed #f8a1c4;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff0f5;
+  border-radius: 10px;
+}

@@ -37,11 +37,11 @@ header h1 {
   margin-bottom: 30px;
 }
 
-.cat-photo {
-  width: 250px;
-  border-radius: 12px;
-  box-shadow: 0 0 12px #ffbfd9;
-  margin-bottom: 15px;
+.profile-pic {
+  width: 200px;
+  border-radius: 15px;
+  border: 2px dashed pink;
+  box-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
 }
 
 h2 {
