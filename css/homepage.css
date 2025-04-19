@@ -1,63 +1,74 @@
 /* this css file will only style the homepage of our site */
+
 body {
-  background-color: #fff0f5;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  color: #5e3366;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff0f5; /* light rosy pink */
+  color: #4b2e2e; /* deep rose brown for text */
   margin: 0;
   padding: 0;
 }
 
-.container {
-  max-width: 800px;
-  margin: auto;
-  padding: 20px;
-  background-color: #ffeef8;
-  border-radius: 20px;
-  box-shadow: 0 0 15px #ffb6c1;
+header {
+  background-color: #ffe4e1; /* light rose */
   text-align: center;
+  padding: 40px 20px;
+  border-bottom: 2px solid #e6b7b7;
+  box-shadow: 0 4px 6px rgba(200, 100, 100, 0.1);
 }
 
-header h1 {
+h1 {
   font-size: 2.8em;
-  color: #d63384;
-  margin: 20px 0 10px;
+  color: #b22222; /* firebrick red */
+  margin: 0;
 }
 
 .subtitle {
+  font-style: italic;
+  color: #8b0000; /* dark red */
   font-size: 1.2em;
-  color: #cc6699;
-  margin-bottom: 30px;
+  margin-top: 10px;
 }
 
-.minor-section {
-  background-color: #fff5fa;
-  padding: 20px;
-  border-radius: 15px;
-  box-shadow: 0 0 8px #ffc0cb;
-  margin-bottom: 30px;
-}
-
-.profile-pic {
-  width: 200px;
-  border-radius: 15px;
-  border: 2px dashed pink;
-  box-shadow: 0 0 10px rgba(255, 182, 193, 0.5);
+main {
+  padding: 30px;
+  max-width: 800px;
+  margin: auto;
+  background-color: #fffafa; /* light soft pink */
+  border: 1px dashed #dda0dd;
+  border-radius: 12px;
 }
 
 h2 {
-  color: #b3005e;
-  font-size: 1.8em;
+  color: #c71585; /* medium violet red */
+  border-bottom: 1px solid #dda0dd;
+  padding-bottom: 5px;
+  margin-top: 30px;
 }
 
 p {
-  font-size: 1.1em;
   line-height: 1.6;
-  margin: 10px 0;
+  font-size: 1.1em;
+  color: #5c3a3a;
+  text-indent: 1em;
 }
 
-footer {
-  font-size: 1em;
-  color: #a64d79;
-  padding-top: 10px;
-  border-top: 1px solid #ffccdd;
+/* Image Styling */
+img {
+  max-width: 100%;
+  border-radius: 12px;
+  border: 2px solid #f4a7b9;
+  box-shadow: 0 4px 8px rgba(200, 100, 100, 0.2);
+  margin-top: 20px;
+}
+
+/* Links */
+a {
+  color: #d46a6a;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: #b03a3a;
 }
