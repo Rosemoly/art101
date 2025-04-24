@@ -1,10 +1,23 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - This script declares vehicle info variables, calculates the age of vehicle, and outputs everything to the webpage
+// Author: Emily Valdez
+// Date: 23 April 2025
 
-// Constants
+// Define Variables
+make = "Toyota";
+model = "Camry";
+color = "Gray";
+year = 2015;
 
-// Functions
+// calculate
+age = 2025 - year
+
+// Output
+document.writeln("Make: " + make + "<br>");
+document.writeln("Model: " + model + "<br>");
+document.writeln("Color: " + color + "<br>");
+document.writeln("Year: " + year + "<br>");
+document.writeln("Age: " + age + "<br>");
+
 
 // this is an example function and this comment tells what it doees and what parameters are passed to it.
 function myFunction(param1, param2) {
