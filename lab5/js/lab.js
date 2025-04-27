@@ -5,7 +5,7 @@
 // Define Variables
 make = "Toyota";
 model = "Camry";
-color = "Gray";
+color = "Silver";
 year = 2015;
 
 // calculate
