@@ -2,111 +2,58 @@
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 
-/* Reset styles */
-* {
-  box-sizing: border-box;
+.minor-section { 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #990000;              
+  background-color: #ffe5e5;             
+}
+
+body {
+  color: #800000; 
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff5f5; 
   margin: 0;
   padding: 0;
 }
 
-/* Body styling */
-body {
+section {
+  padding: 15px;
+  margin: 20px;
+  border: solid 1px #b30000;              
+  background-color: #ffe5e5;              
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(179, 0, 0, 0.15);
+}
+
+h1, h2 {
+  color: #cc0000; 
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background-color: #f0fff0; /* very light mint green */
-  color: #1a3d1a; /* dark forest green */
-  padding: 30px;
-  line-height: 1.7;
 }
 
-/* Main header */
 h1 {
-  color: #2e8b57; /* sea green */
+  font-size: 36px;
   text-align: center;
-  font-size: 2.5em;
-  margin-bottom: 30px;
-  border-bottom: 3px solid #2e8b57;
-  padding-bottom: 10px;
-  letter-spacing: 2px;
+  margin-top: 20px;
 }
 
-/* Section headers */
 h2 {
-  color: #006400; /* dark green */
-  border-left: 6px solid #006400;
-  padding-left: 12px;
-  margin-top: 30px;
+  font-size: 24px;
   margin-bottom: 10px;
 }
 
-h3 {
-  color: #2f4f2f; /* dark olive green */
-  margin-top: 20px;
-  margin-bottom: 8px;
-}
-
-/* Section boxes */
-#challenge,
-#problems,
-#reflection,
-#results {
-  background-color: #e6f2e6; /* light leafy green */
-  border: 1px solid #4caf50;
-  border-radius: 10px;
-  padding: 20px;
-  margin-bottom: 20px;
-  box-shadow: 2px 2px 6px rgba(76, 175, 80, 0.2);
-}
-
-/* Paragraphs */
 p {
-  font-size: 1.05em;
-  margin-top: 10px;
+  text-indent: 30px;
+  font-size: 16px;
+  line-height: 1.6;
+  color: #800000; 
 }
 
-/* Lists */
-ul {
-  margin-left: 20px;
-  padding-left: 20px;
-  list-style-type: square;
-}
-
-ul ul {
-  list-style-type: circle;
-}
-
-/* Code blocks */
-pre {
-  background-color: #f0fff0;
-  border-left: 5px solid #2e8b57;
-  padding: 15px;
-  font-family: 'Courier New', Courier, monospace;
-  border-radius: 5px;
-  margin-top: 10px;
-  color: #1a3d1a;
-  overflow-x: auto;
-}
-
-/* Images */
-img {
-  border: 3px solid #4caf50;
-  border-radius: 8px;
-  margin-top: 10px;
-  max-width: 100%;
-}
-
-/* Optional buttons */
-button {
-  background-color: #4caf50;
-  color: white;
-  border: none;
-  padding: 10px 18px;
-  border-radius: 5px;
-  font-size: 1em;
-  margin-top: 15px;
-  cursor: pointer;
-  transition: background-color 0.2s ease-in-out;
-}
-
-button:hover {
-  background-color: #388e3c;
+#content {
+  border: 2px dashed #cc4444;
+  padding: 20px;
+  margin: 20px auto;
+  background-color: #fff0f0;
+  border-radius: 10px;
+  max-width: 800px;
 }

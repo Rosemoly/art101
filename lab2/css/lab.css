@@ -1,41 +1,66 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #e0a1a1;
-    background-color: #ffe9f0;
-  }
+
+.minor-section { 
+  padding: 10px;
+  margin-bottom: 10px;
+  border: solid 1px #990000;             
+  background-color: #ffe5e5;              
+}
+
 /* Style for the entire page */
 body {
-  color: #d36da3; /* soft pink text */
-  font-family: 'Comic Sans MS', cursive, sans-serif;
-  background-color: #fffafc; /* optional: very light pink background */
+  color: #800000; /* deep red text */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #fff5f5; /* light red-tinted background */
+  margin: 0;
+  padding: 0;
 }
 
-/* Style for the heading */
+/* Style for all section blocks */
+section {
+  padding: 15px;
+  margin: 20px;
+  border: solid 1px #b30000;              /* strong red border */
+  background-color: #ffe5e5;              /* very light red */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(179, 0, 0, 0.15);
+}
+
+/* Heading styles */
+h1, h2 {
+  color: #cc0000; /* bold red */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Main title */
 h1 {
-  color: #ff7eb9; /* brighter pink */
   font-size: 36px;
   text-align: center;
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  margin-top: 20px;
 }
 
-/* Style for the paragraph */
+/* Sub-section headings */
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+/* Paragraph style */
 p {
   text-indent: 30px;
   font-size: 16px;
   line-height: 1.6;
-  color: #d36da3; /* match body text color */
-  font-family: 'Comic Sans MS', cursive, sans-serif;
+  color: #800000; /* deep red */
 }
 
-/* Style for the content box */
+/* Content container (optional use) */
 #content {
-  border: 2px dashed #f8a1c4;
+  border: 2px dashed #cc4444;
   padding: 20px;
-  margin: 20px;
-  background-color: #fff0f5;
+  margin: 20px auto;
+  background-color: #fff0f0;
   border-radius: 10px;
+  max-width: 800px;
 }
