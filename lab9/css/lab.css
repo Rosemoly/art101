@@ -71,3 +71,10 @@ button:hover {
   color: red;
   border-color: red;
 }
+
+  .special {
+    background-color: lightblue;
+    border: 2px solid darkblue;
+    padding: 10px;
+  }
+
