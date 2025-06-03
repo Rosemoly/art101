@@ -3,25 +3,34 @@
 // Author: Emily Valdez
 // Date: 31 May 2025
 
-$(document).ready(function () {
+    // Add a click event to the button
     $("#activate").click(function () {
-        // Make an AJAX call to a test API
-        $.ajax({
-            url: "https://jsonplaceholder.typicode.com/posts/1", // Example API
-            method: "GET",
-            dataType: "json",
-            success: function (data) {
-                // Option 1: Parse and show specific data
-                let output = `<h3>${data.title}</h3><p>${data.body}</p>`;
-                
-                // Option 2: Show full JSON
-                // let output = JSON.stringify(data, null, 2);
+        
+      $.ajax({
+        // The URL for the request (from the API docs)
+        url: "https://yesno.wtf/api",
+        // The data to send (none needed for this API)
+        data: {},
+        // Whether this is a POST or GET request
+        type: "GET",
+        // The type of data we expect back
+        dataType: "json",
+        // What do we do when the API call is successful
+        success: function(data) {
+          // Option 1: parse the JSON data
+          let answer = data.answer;
+          let gif = data.image;
 
-                $("#output").html(output);
-            },
-            error: function (xhr, status, error) {
-                $("#output").html("<p>Something went wrong: " + error + "</p>");
-            }
-        });
+          // Display the answer and the gif in the output div
+          $("#output").html(`<p>The universe says: <strong>${answer.toUpperCase()}</strong></p>
+                             <img src="${gif}" alt="answer gif">`);
+        },
+        // What we do if the API call fails
+        error: function (jqXHR, textStatus, errorThrown) { 
+          $("#output").text("Something went wrong: " + textStatus);
+          console.log("Error:", textStatus, errorThrown);
+        }
+      });
+
     });
-});
+
